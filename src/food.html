@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition</title>
+</head>
+<body>
+    <h1>Food Nutrition</h1>
+    <table id="foodtable" border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Calories</th>
+                <th>Protein</th>
+                <th>Carbs</th>
+                <th>Fats</th>
+                <th>Sugar</th>
+                <th>Fiber</th>
+                <th>Origin</th>
+                <th>Cholesterol</th>
+                <th>Benefits</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+    </table>
+    <script>
+        fetch('http://localhost:3200/Food')
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log('Fetched data',data)
+            const tablebody=document.getElementById('tablebody');
+            tablebody.innerHTML = '';
+            data.forEach(item=>{
+                const row = document.createElement('tr');
+                row.innerHTML=`
+                <td>${item.name}</td>
+                <td>${item.calories}</td>
+                <td>${item.protein}</td>
+                <td>${item.carbs}</td>
+                <td>${item.fats}</td>
+                <td>${item.sugar}</td>
+                <td>${item.fiber}</td>
+                <td>${item.origin}</td>
+                <td>${item.cholesterol}</td>
+                <td>${item.benefits}</td>
+                `
+                tablebody.appendChild(row)
+    
+            })
+        })
+        .catch((e)=>console.log(e));
+    </script>
+</body>
+</html>

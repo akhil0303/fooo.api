@@ -1,0 +1,123 @@
+{
+    "food_items":[
+    {
+        "name": "Banana",
+        "calories": 105,
+        "protein": 1.1,
+        "carbs": 27,
+        "fats": 0.3,
+        "sugar": 14,
+        "fiber": 2.3,
+        "origin": "India",
+        "cholesterol": "No cholesterol",
+        "benefits": "Rich in potassium"
+    },
+    {
+        "name": "Apple",
+        "calories": 95,
+        "protein": 0.5,
+        "carbs": 25,
+        "fats": 0.3,
+        "sugar": 19,
+        "fiber": 4,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "High in fiber, Rich in Vitamin C"
+    },
+    {
+        "name": "Orange",
+        "calories": 62,
+        "protein": 1.2,
+        "carbs": 15,
+        "fats": 0.2,
+        "sugar": 12,
+        "fiber": 3.1,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "High in Vitamin C"
+    },
+    {
+        "name": "Broccoli",
+        "calories": 55,
+        "protein": 4.3,
+        "carbs": 11,
+        "fats": 0.6,
+        "sugar": 1.5,
+        "fiber": 2.6,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "High in Vitamin C, Rich in fiber"
+    },
+    {
+        "name": "Spinach",
+        "calories": 7,
+        "protein": 0.9,
+        "carbs": 1.1,
+        "fats": 0.1,
+        "sugar": 0.1,
+        "fiber": 0.7,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "Rich in iron, High in Vitamin K"
+    },
+    {
+        "name": "Chicken Breast",
+        "calories": 165,
+        "protein": 31,
+        "carbs": 0,
+        "fats": 3.6,
+        "sugar": 0,
+        "fiber": 0,
+        "origin": "Various",
+        "cholesterol": "Low cholesterol",
+        "benefits": "High in protein, Low in fat"
+    },
+    {
+        "name": "Salmon",
+        "calories": 233,
+        "protein": 25,
+        "carbs": 0,
+        "fats": 14,
+        "sugar": 0,
+        "fiber": 0,
+        "origin": "Various",
+        "cholesterol": "Low cholesterol",
+        "benefits": "Rich in Omega-3 fatty acids, Good source of protein"
+    },
+    {
+        "name": "Almonds",
+        "calories": 579,
+        "protein": 21,
+        "carbs": 22,
+        "fats": 49,
+        "sugar": 4.4,
+        "fiber": 12,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "High in healthy fats, Rich in Vitamin E"
+    },
+    {
+        "name": "Oats",
+        "calories": 389,
+        "protein": 16.9,
+        "carbs": 66.3,
+        "fats": 6.9,
+        "sugar": 0,
+        "fiber": 10.6,
+        "origin": "Various",
+        "cholesterol": "No cholesterol",
+        "benefits": "Rich in fiber, May help lower cholesterol levels"
+    },
+    {
+        "name": "Greek Yogurt",
+        "calories": 59,
+        "protein": 10,
+        "carbs": 3.6,
+        "fats": 0.4,
+        "sugar": 3.6,
+        "fiber": 0,
+        "origin": "Various",
+        "cholesterol": "Low cholesterol",
+        "benefits": "High in protein, Good source of probiotics"
+    }
+]}
